@@ -22,7 +22,7 @@ define('DB_NAME', 'stubar_Y68tU');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'StubarBathroomKitchen8989');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -78,3 +78,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+define('WP_ALLOW_REPAIR', true);
+
