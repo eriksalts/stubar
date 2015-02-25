@@ -41,7 +41,7 @@ if ( 2 > $paged ) {
 			</div>
 			<div class="col-md-4 fp-columns">
 				<!-- <a href="info@sr-stl.com">info@sr-stl.com</a> -->
-				<p id="temporary-email">info@sr-stl.com</p>
+				<p class="temporary-email">info@sr-stl.com</p>
 			</div>
 		</div>
 	</div>
