@@ -3,6 +3,13 @@ Theme Name: Arcade Child
 Template: arcade-basic
 */
 
+/*CHANGE ME*/
+#temporary-email{
+	color: white;
+	font-size: 25px;
+}
+
+
 /*FRONT-PAGE*/
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);
 img[src=""] {
