@@ -46,19 +46,12 @@ get_header();
 	</div>
 	<!-- <div class="container clearfix"> -->
 		<!-- <div class="row"> -->
-<<<<<<< HEAD
-			<div class="col-md-6">
-				<a class="who-we-are-links" href="http://www.veteranownedbusiness.com" target="_blank" ><img id="veteran" src="http://www.veteranownedbusiness.com/images/banner_links/vob_120x60_blue_camo.png" alt="Veteran Owned Business Directory, Get your free listing, now!" border="0px" /></a>
-			</div>
-			<div class="col-md-6">
-				<a class="who-we-are-links" title="Click for the Business Review of Stuehlmeyer Renovations, a Contractor - Remodel & Repair in Glen Carbon IL" href="https://www.bbb.org/stlouis/business-reviews/contractor-remodel-and-repair/stuehlmeyer-renovations-in-glen-carbon-il-310360447#sealclick"><img id="bbb" alt="Click for the BBB Business Review of this Contractor - Remodel & Repair in Glen Carbon IL" style="border: 0;" src="https://seal-stlouis.bbb.org/seals/blue-seal-250-52-stuehlmeyerrenovations-310360447.png" /></a>
-=======
+
 			<div id="veteran"  class="col-md-6">
 				<a  class="who-we-are-links" href="http://www.veteranownedbusiness.com" target="_blank" ><img src="http://www.veteranownedbusiness.com/images/banner_links/vob_120x60_blue_camo.png" alt="Veteran Owned Business Directory, Get your free listing, now!" border="0px" style=" height=60px; width=120px;" /></a>
 			</div>
 			<div id="bbb" class="col-md-6">
 				<a  class="who-we-are-links" title="Click for the Business Review of Stuehlmeyer Renovations, a Contractor - Remodel & Repair in Glen Carbon IL" href="https://www.bbb.org/stlouis/business-reviews/contractor-remodel-and-repair/stuehlmeyer-renovations-in-glen-carbon-il-310360447#sealclick"><img  alt="Click for the BBB Business Review of this Contractor - Remodel & Repair in Glen Carbon IL" style="border: 0; height=60px; width=120px;" src="https://seal-stlouis.bbb.org/seals/blue-seal-250-52-stuehlmeyerrenovations-310360447.png" /></a>
->>>>>>> 4fe24210baf4e1d9193dc6b1dd813525670a9337
 			</div>
 		<!-- </div>	 -->
 	<!-- </div> -->
