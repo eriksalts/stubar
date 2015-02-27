@@ -2,33 +2,43 @@
 /**
  * Template for displaying new construction custom post type entries
  */
-?>	
+?>  
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
+  <header class="entry-header">
 
 
-	</header><!-- .entry-header -->
-	<div class="entry-content">
-		<div class="row wwd_row">
-			<div  class="col-md-4"><img id="wwd_top_left" class ="img-responsive wwd_img" src="<?php the_field('image_#1'); ?>"> </div>
-			<div  class="col-md-4"><img id="wwd_top_middle" class ="img-responsive wwd_img" src="<?php the_field('image_#2'); ?>"> </div>
-			<div  class="col-md-4"><img id="wwd_top_right" class ="img-responsive wwd_img" src="<?php the_field('image_#3'); ?>"> </div>
-		</div>
-		<div class="col-lg-12 page-explanation "><?php the_field('what_we_do_page_explanation'); ?></div>
-		<div class="row wwd_description_row">
-			<div class="col-md-4 wwd_description"><?php the_field('what_we_do_newconstruction_description'); ?></div>
-			<div class="col-md-4 wwd_description"><?php the_field('what_we_do_renovations_descritption'); ?></div>
-			<div class="col-md-4 wwd_description"><?php the_field('what_we_do_other_description'); ?></div>
-		</div>
-		<div class="row wwd_row">
-			<div class="col-md-4"><img id="wwd_bottom_left" class ="img-responsive wwd_img" src="<?php the_field('image_#4'); ?>"> </div>
-			<div  class="col-md-4"><img id="wwd_bottom_middle" class ="img-responsive wwd_img" src="<?php the_field('image_#5'); ?>"> </div>
-			<div  class="col-md-4"><img id="wwd_bottom_right" class ="img-responsive wwd_img" src="<?php the_field('image_#6'); ?>"> </div>
-		</div>
+  </header><!-- .entry-header -->
+  <div class="entry-content">
+  <div class="col-lg-12 page-explanation "><?php the_field('what_we_do_page_explanation'); ?></div>
+  <!-- START Carousel ONE ---------------------------------------------- -->
+<div class="row carousel-row">
+<!-- Carousel START -->
+  <div id="wwd-carousel" class="carousel slide col-md-7" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="<?php the_field('image_#1'); ?>" alt="STUBAR">
+      </div>
+      <div class="item">
+        <img src="<?php the_field('image_#2'); ?>" alt="STUBAR">
+      </div>
+      <div class="item">
+        <img src="<?php the_field('image_#3'); ?>" alt="STUBAR">
+      </div>
+    </div>
 
-	</div><!-- .entry-content -->	
+  </div>
+<!-- Carousel END -->
+    
+    <div class="row wwd_description_row">
+      <div class="col-md-5 wwd_description"><?php the_field('what_we_do_newconstruction_description'); ?></div>
+    </div>
+
+  </div><!-- .entry-content --> 
 
 </article><!-- #post -->
-
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>

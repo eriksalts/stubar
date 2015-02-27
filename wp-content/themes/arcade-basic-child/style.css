@@ -2,21 +2,20 @@
 Theme Name: Arcade Child	
 Template: arcade-basic
 */
-
-/*CHANGE ME*/
-.temporary-email{
-	color: white;
-	font-size: 25px;
-}
-
-
-/*FRONT-PAGE*/
+/*GENERIC*/
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);
 img[src=""] {
    display: none;
 }
 .hide{
 	display: none !important;
+}
+.edit-link{
+	display: hidden !important;
+	margin: 0;
+}
+#primary{
+	margin: 0;
 }
 p{
 	font-size: 18px;
@@ -32,7 +31,7 @@ article{
 	font-size: 40px !important;
 	padding-bottom: 4px;
 }
-
+/*FRONT-PAGE*/
 #page,
 .home-top{
 	background-color: white !important;
@@ -66,24 +65,6 @@ article{
 }
 
 
-/*#MyCarousel{
-	padding-right: 0px !important;
-	padding-left: 0px !important;
-	margin-left: 0px;
-	margin-right:0px;
-}
-#MyCarousel img{
-	background-size: contain;
-	min-width: 100%;
-	max-height: 240px;
-	
-}
-.carousel-row{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 2px solid #666633;
-	border-radius: 1px;
-}*/
 /*----------------*/
 
 
@@ -129,13 +110,15 @@ a{
 	max-height: 400px;
 }
 .company-image{
-	max-width: 600px;
+	/*max-width: 600px;*/
 	padding: 0px;
 }
 .company-image img{
 	border-radius: 4px;
 	border-right: 5px solid #585858;
 	padding-right: 5px;
+	/*display: block;
+	margin: auto;*/
 }
 .about-us-description{
 	height: 100%;
@@ -146,14 +129,13 @@ a{
 	text-align: center;
 }
 #veteran{
-	padding: 40px 30px 30px 400px;
-	width:120px;
-	height:60px;
+	/*margin: 40px 30px 30px 400px;*/
 }
 #bbb{
-	padding: 40px 400px 30px 30px;
-	height:120px;
-	width:60px;
+	/*margin: 40px 400px 30px 30px;*/
+}
+.link-row{
+	margin: 20px 0;
 }
 #post-139 > div.col-md-8.about-us-description > p:nth-child(3) > a:nth-child(1),
 #post-139 > div.col-md-8.about-us-description > p:nth-child(3) > a:nth-child(2){
@@ -182,15 +164,42 @@ a{
 .page-explanation{
 	font-size: 25px;
 	text-align: center;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	margin-bottom: 30px;
-	border-top: 3px solid #585858;
+	/*border-top: 3px solid #585858;*/
 	padding-top: 10px;
 }
 .wwd_description_row{
-	margin: 40px;
+	/*margin: 40px;*/
 	border-bottom: 3px solid #585858;
 	padding-bottom: 10px;
+}
+
+#wwd-carousel{
+	display: block;
+	margin: auto;
+}
+.carousel-inner{
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#wwd-carousel img{
+	background-size: contain;
+	max-width: 100%;
+	max-height: 300px;
+	text-align: cover;
+	margin: auto;
+}
+
+.carousel-row{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*border: 2px solid #666633;*/
+	border-radius: 1px;
+	/*text-align: center;*/
+	margin: auto;
 }
 /*GALLERY--------------------------------------------------------------------*/
 /*#post-112 > h1{
@@ -200,7 +209,7 @@ padding-bottom: 4px;
 }*/
 #construction-gallery-image,
 #renovations-gallery-image{
-	max-height: 300px;
+	max-height: 250px;
 	width:90%;
 	border-radius: 4px;
 }
