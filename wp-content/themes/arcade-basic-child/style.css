@@ -147,9 +147,13 @@ a{
 }
 #veteran{
 	padding: 40px 30px 30px 400px;
+	width:120px;
+	height:60px;
 }
 #bbb{
 	padding: 40px 400px 30px 30px;
+	height:120px;
+	width:60px;
 }
 #post-139 > div.col-md-8.about-us-description > p:nth-child(3) > a:nth-child(1),
 #post-139 > div.col-md-8.about-us-description > p:nth-child(3) > a:nth-child(2){
