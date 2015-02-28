@@ -74,7 +74,7 @@ $space_class = '';
     				</div>
     				<?php
     				// Header image section
-    				// bavotasan_header_images();
+    				bavotasan_header_images();
     				?>
 				</div>
 			</div>
