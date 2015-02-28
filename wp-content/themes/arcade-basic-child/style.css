@@ -31,6 +31,9 @@ article{
 	font-size: 40px !important;
 	padding-bottom: 4px;
 }
+.title-card{
+	background-size: contain;
+}
 .carousel-non-theme{
 	display: block;
 	margin: auto;
@@ -82,17 +85,13 @@ article{
 .title-card{
 	height: 400px !important;
 }
-#site-meta{
+/*#site-meta{
 	background-image: url('images/header.png');
-	
-	/*max-width: 100%;
-	height: auto;*/
 	background-size: cover;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding-top: 70px;
-	/*padding-bottom: 70px;*/
-}
+}*/
 .basic #site-title a{
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
