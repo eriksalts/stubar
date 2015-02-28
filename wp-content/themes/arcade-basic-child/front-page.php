@@ -1,13 +1,6 @@
 <?php
 /**
- * The front page template.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @since 1.0.0
+ * Template Name: Front-Page
  */
 get_header();
 
@@ -20,15 +13,33 @@ if ( 2 > $paged ) {
 	?>
 	<div class="home-top">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="home-jumbotron jumbotron">
-						<h1><?php echo apply_filters( 'the_title', html_entity_decode( $bavotasan_theme_options['jumbo_headline_title'] ) ); ?></h1>
+		
+
+			<div class="row front-page-row">
+				<div class="col-md-6">
+					<!-- <div class="home-jumbotron jumbotron"> -->
+						<h1 id="front-page-title"><?php echo apply_filters( 'the_title', html_entity_decode( $bavotasan_theme_options['jumbo_headline_title'] ) ); ?></h1>
 						<p class="lead"><?php echo wp_kses_post( html_entity_decode( $bavotasan_theme_options['jumbo_headline_text'] ) ); ?></p>
-					</div>
+					<!-- </div> -->
 				</div>
+				<?php 
+			    $args = array(
+			        'post_type' => 'front-page',
+			        'orderby' => 'title',
+			        'order' => 'ASC'
+			    );
+			    $the_query = new WP_Query( $args );		    
+			?>
+			<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>	
+
+			<?php get_template_part( 'content', 'front-page' ); ?>
+
+			<?php endwhile; endif; ?>
+	<?php
+	} ?>
 			</div>
 		</div>
+
 	</div>
 	<div class="container-fluid">
 		<div class="row fp-column-row">
@@ -40,14 +51,18 @@ if ( 2 > $paged ) {
 				<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
 			</div>
 			<div class="col-md-4 fp-columns">
-				<!-- <a href="info@sr-stl.com">info@sr-stl.com</a> -->
-				<p class="temporary-email">info@sr-stl.com</p>
+				<a href="info@stubar.co">info@stubar.co</a>
 			</div>
 		</div>
 	</div>
-	<?php
-	} ?>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
 <?php
 }
 get_footer(); ?>
+
+<!-- <script src="//code.jquery.com/jquery-1.11.2.min.js"></script> -->
+
+
+
