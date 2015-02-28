@@ -53,7 +53,6 @@ $space_class = '';
 					?>
 				</div>
 			</nav><!-- #site-navigation -->
-
 			 <div class="title-card-wrapper">
                 <div class="title-card">
     				<div id="site-meta">
@@ -73,10 +72,9 @@ $space_class = '';
 
     					<a href="#" id="more-site" class="btn btn-default btn-lg"><?php _e( 'See More', 'arcade' ); ?></a>
     				</div>
-
     				<?php
     				// Header image section
-    				bavotasan_header_images();
+    				// bavotasan_header_images();
     				?>
 				</div>
 			</div>
