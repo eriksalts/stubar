@@ -54,32 +54,11 @@ $space_class = '';
 					?>
 				</div>
 			</nav><!-- #site-navigation -->
-			 <div class="title-card-wrapper">
-                <div class="title-card">
-    				<div id="site-meta">
-    					<h1 id="site-title">
-    						<a href="<?php echo esc_url( home_url() ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-    					</h1>
-
-    					<?php if ( $bavotasan_theme_options['header_icon'] ) { ?>
-    					<i class="fa <?php echo $bavotasan_theme_options['header_icon']; ?>"></i>
-    					<?php } else {
-    						$space_class = ' class="margin-top"';
-    					} ?>
-
-    					<h2 id="site-description"<?php echo $space_class; ?>>
-    						<?php bloginfo( 'description' ); ?>
-    					</h2>
-
-    					<a href="#" id="more-site" class="btn btn-default btn-lg"><?php _e( 'See More', 'arcade' ); ?></a>
-    				</div>
-    				<?php
-    				// Header image section
-    				bavotasan_header_images();
-    				?>
-				</div>
-			</div>
-
+			 
+			<div class="col-lg-12 header-background">
+				<img src="wp-content/themes/arcade-basic-child/images/headerV2.png">
+  			</div>
 		</header>
-
-		<main>
+			
+	</div>
+<main>

@@ -3,7 +3,12 @@ Theme Name: Arcade Child
 Template: arcade-basic
 */
 /*GENERIC*/
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);
+/*@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500);*/
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
 img[src=""] {
    display: none;
 }
@@ -86,16 +91,9 @@ article{
 .title-card{
 	height: 400px !important;
 }
-/*#site-meta{
-	background-image: url('images/header.png');
-	background-size: cover;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	padding-top: 70px;
-}*/
-.basic #site-title a{
+/*.basic #site-title a{
 	font-family: 'Alegreya Sans SC', sans-serif;
-}
+}*/
 .only-on-home #more-site{
 	display: none;
 }
@@ -140,11 +138,6 @@ a{
 	color:white !important;
 }
 /*WHO WE ARE------------------------------------------------------------------*/
-/*#post-118 > h1{
-	border-bottom: 5px solid #585858;
-	font-size: 40px;
-	padding-bottom: 4px;
-}*/
 .who-we-are-row{
 	max-height: 400px;
 }
@@ -156,8 +149,6 @@ a{
 	border-radius: 4px;
 	border-right: 5px solid #585858;
 	padding-right: 5px;
-	/*display: block;
-	margin: auto;*/
 }
 .about-us-description{
 	height: 100%;
@@ -166,12 +157,6 @@ a{
 .who-we-are-links{
 	margin-bottom: 20px;
 	text-align: center;
-}
-#veteran{
-	/*margin: 40px 30px 30px 400px;*/
-}
-#bbb{
-	/*margin: 40px 400px 30px 30px;*/
 }
 .link-row{
 	margin: 20px 0;
@@ -206,14 +191,10 @@ a{
 .page-explanation{
 	font-size: 25px;
 	text-align: center;
-	/*margin-top: 30px;*/
 	margin-bottom: 30px;
-	/*border-top: 3px solid #585858;*/
 	padding-top: 10px;
 }
 .wwd_description_row{
-	/*margin: 40px;*/
-	/*border-bottom: 3px solid #585858;*/
 	padding-bottom: 10px;
 }
 
