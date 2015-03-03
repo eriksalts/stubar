@@ -56,7 +56,7 @@ $space_class = '';
 			</nav><!-- #site-navigation -->
 			 
 			<div class="col-lg-12 header-background">
-				<img src="wp-content/themes/arcade-basic-child/images/headerV2.png">
+				<img src="/wp-content/themes/arcade-basic-child/images/headerV2.png">
   			</div>
 		</header>
 			
