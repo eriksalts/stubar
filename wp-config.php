@@ -80,3 +80,8 @@ if ( !defined('ABSPATH') )
 require_once(ABSPATH . 'wp-settings.php');
 define('WP_ALLOW_REPAIR', true);
 
+if(is_admin()) {
+	add_filter('filesystem_method', create_function('$a', 'return "direct";' ));
+	define( 'FS_CHMOD_DIR', 0751 );
+}
+
