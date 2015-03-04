@@ -16,7 +16,7 @@
 		<div class="renov-description"><?php the_field('renovations_description'); ?></div>
 		<div class="renov-review"><?php the_field('renovations_review'); ?></div>
 		<div class="row renov-row">
-				
+		<div class="fb-like fb-like-renovations" data-href="http://www.sr-stl.com/renovations" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 			<div class="col-md-6">
 				<div id="landscape1" class="cf-landscape">
 					<h3 id="after1" class="after-label">After</h3>

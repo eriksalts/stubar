@@ -12,6 +12,15 @@ if ( 2 > $paged ) {
 	if ( ! empty( $bavotasan_theme_options['jumbo_headline_title'] ) ) {
 	?>
 	<div class="home-top">
+	<div id="fb-root"></div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=407225272776641&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
 		
 
@@ -21,6 +30,7 @@ if ( 2 > $paged ) {
 						<h1 id="front-page-title"><?php echo apply_filters( 'the_title', html_entity_decode( $bavotasan_theme_options['jumbo_headline_title'] ) ); ?></h1>
 						<p class="lead"><?php echo wp_kses_post( html_entity_decode( $bavotasan_theme_options['jumbo_headline_text'] ) ); ?></p>
 					<!-- </div> -->
+
 				</div>
 				<?php 
 			    $args = array(
@@ -38,6 +48,7 @@ if ( 2 > $paged ) {
 	<?php
 	} ?>
 			</div>
+			
 		</div>
 
 	</div>
@@ -51,7 +62,7 @@ if ( 2 > $paged ) {
 				<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
 			</div>
 			<div class="col-md-4 fp-columns">
-				<a href="mailto:info@sr-stl.com">info@sr-stl.com</a>
+				<a href="info@stubar.co">info@stubar.co</a>
 			</div>
 		</div>
 	</div>
