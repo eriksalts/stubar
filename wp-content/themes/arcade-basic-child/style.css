@@ -1,5 +1,5 @@
 /*
-Theme Name: Arcade Child	
+Theme Name: Arcade Child
 Template: arcade-basic
 */
 /*GENERIC*/
@@ -14,7 +14,7 @@ Template: arcade-basic
 .fb-like-renovations{
 	display: block !important;
 	margin-left: 20px !important;
-	margin-bottom: 20px !important; 
+	margin-bottom: 20px !important;
 }
 img[src=""] {
    display: none;
@@ -96,7 +96,7 @@ article{
 	border-radius: 4px;
 }
 .front-page-carousel{
-	margin-top: 35px; 
+	margin-top: 35px;
 }
 .front-page-row{
 	margin-bottom: 35px;
@@ -279,7 +279,7 @@ a{
 .parent{
 	position: relative;
 	padding-left: 0px;
-	padding-right: 0px;	
+	padding-right: 0px;
 }
 .gallery-row{
 	padding-right: 20px;
@@ -321,12 +321,12 @@ padding-bottom: 4px;
 	margin-bottom: 10px;
 }
 .img-wrap{
-	
+
 	vertical-align: middle;
-	margin: auto;	
+	margin: auto;
 }
 .nc_img{
-	
+
 	display: inline-block;
 	border: solid 3px #585858;
 	border-radius: 4px;
@@ -363,7 +363,7 @@ padding-bottom: 4px;
 	max-width: 250px;
    	height: 370px;
    	margin: auto !important;
-   	padding: 0;	
+   	padding: 0;
    	text-align: center !important;
 
 }
@@ -411,7 +411,7 @@ padding-bottom: 4px;
 	padding: 15px 10px 10px 25px;
 	border-bottom-left-radius: 5em 5em;
 	opacity: 0.8;
-	
+
 }
 .before-label,
 .after-label{
@@ -476,9 +476,10 @@ a.questions{
 .answer{
 	display: none;
 	font-size: 24px;
-	background-color: rgb(102,102,51); 
+	background-color: rgb(102,102,51);
 	color: white;
 	padding:12px;
 	border-radius: 4px;
 	letter-spacing: 0.2px;
 }
+/*THIS IS A TEST FOR SINGLE FILE COMMIT*/
