@@ -42,6 +42,7 @@ article{
 	border-bottom: 5px solid #585858;
 	font-size: 40px !important;
 	padding-bottom: 4px;
+	margin-top: 30px;
 }
 .title-card{
 	background-size: contain;
@@ -61,7 +62,7 @@ article{
 	background-size: contain;
 	max-width: 100%;
 	max-height: 300px;
-	text-align: cover;
+	/*text-align: cover;*/
 	margin: auto;
 }
 
@@ -73,10 +74,15 @@ article{
 	/*text-align: center;*/
 	margin: auto;
 }
-/*#header{
-	position: relative;
+/*.header-background{
+	width: 80%;
+}*/
+#header{
+	/*Jwidth:80%;*/
+	text-align: center;
 
 }
+/*
 .custom-header-image{
 	height: 500px;
 	width: auto;
@@ -120,9 +126,7 @@ article{
 .header-background img{
 	display: block;
 	margin: auto;
-}
-.header-img{
-	width: 100%
+	width: 60%;
 }
 .basic #site-title a{
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -213,6 +217,11 @@ a{
 }
 
 /*WHAT WE DO---------------------------------------------------------------------*/
+@media (max-width: 992px) {
+  .wwd_description {
+    text-align: center;
+  }
+}
 #post-142 > div > p:nth-child(4) > a{
 	color: #428BCA !important;
 }
@@ -248,6 +257,18 @@ a{
 }
 
 /*GALLERY--------------------------------------------------------------------*/
+@media (max-width: 480px) {
+  #construction-gallery-image,
+	#renovations-gallery-image {
+    display: none;
+  }
+	.link-background {
+		position:static !important;
+		opacity:1 !important;
+		margin-bottom: 20px !important;
+	}
+}
+
 #construction-gallery-image,
 #renovations-gallery-image{
 	max-height: 250px;
