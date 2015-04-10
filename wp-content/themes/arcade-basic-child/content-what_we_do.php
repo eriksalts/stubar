@@ -2,7 +2,7 @@
 /**
  * Template for displaying new construction custom post type entries
  */
-?>	
+?>
 
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -31,11 +31,11 @@
 
   </div>
 <!-- Carousel END -->
-		
+
 		<div class="row wwd_description_row">
-			<div class="col-md-5 wwd_description"><?php the_field('what_we_do_newconstruction_description'); ?></div>
+			<div class="col-lg-5 wwd_description"><?php the_field('what_we_do_newconstruction_description'); ?></div>
 		</div>
 
-	</div><!-- .entry-content -->	
+	</div><!-- .entry-content -->
 
 </article><!-- #post -->
