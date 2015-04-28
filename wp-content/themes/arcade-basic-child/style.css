@@ -87,8 +87,12 @@ article{
 	height: 500px;
 	width: auto;
 }*/
-
-
+.navbar-collapse{
+	z-index:1500;
+}
+#page{
+	overflow: visible;
+}
 /*FRONT-PAGE---------------------------------------------------------*/
 #page,
 .home-top{
