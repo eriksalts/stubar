@@ -177,6 +177,9 @@ article{
 a{
 	color:white !important;
 }
+.image-anchor{
+	display: block;
+}
 /*WHO WE ARE------------------------------------------------------------------*/
 /*#post-118 > h1{
 	border-bottom: 5px solid #585858;
