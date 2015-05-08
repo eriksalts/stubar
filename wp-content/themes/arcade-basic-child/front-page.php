@@ -22,7 +22,7 @@ if ( 2 > $paged ) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container">
-		
+
 
 			<div class="row front-page-row">
 				<div class="col-md-6">
@@ -32,15 +32,15 @@ if ( 2 > $paged ) {
 					<!-- </div> -->
 
 				</div>
-				<?php 
+				<?php
 			    $args = array(
 			        'post_type' => 'front-page',
 			        'orderby' => 'title',
 			        'order' => 'ASC'
 			    );
-			    $the_query = new WP_Query( $args );		    
+			    $the_query = new WP_Query( $args );
 			?>
-			<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>	
+			<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
 			<?php get_template_part( 'content', 'front-page' ); ?>
 
@@ -48,7 +48,7 @@ if ( 2 > $paged ) {
 	<?php
 	} ?>
 			</div>
-			
+
 		</div>
 
 	</div>
@@ -62,7 +62,7 @@ if ( 2 > $paged ) {
 				<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
 			</div>
 			<div class="col-md-4 fp-columns">
-				<a href="info@stubar.co">info@stubar.co</a>
+				<a href="mailto:info@sr-stl.com">info@stubar.co</a>
 			</div>
 		</div>
 	</div>
@@ -74,6 +74,3 @@ if ( 2 > $paged ) {
 get_footer(); ?>
 
 <!-- <script src="//code.jquery.com/jquery-1.11.2.min.js"></script> -->
-
-
-
