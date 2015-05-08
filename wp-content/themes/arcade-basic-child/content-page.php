@@ -93,7 +93,7 @@ d<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<a href="tel://1-618-205-3220">618-205-3220</a>
 		</div>
 		<div class="col-md-4">
-			<a href="info@stubar.co">info@sr-stl.com</a>
+			<a href="info@sr-stl.com">info@stubar.com</a>
 		</div>
 		<div class="col-md-4">
 			<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
