@@ -93,17 +93,14 @@ d<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<a href="tel://1-618-205-3220">618-205-3220</a>
 		</div>
 		<div class="col-md-4">
-			<a href="info@stubar.co">info@stubar.co</a>
+			<a href="info@stubar.co">info@sr-stl.com</a>
 		</div>
 		<div class="col-md-4">
 			<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
 		</div>
 	</div>
-	
+
 </div>
 <!-- <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-
-
-
