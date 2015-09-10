@@ -62,7 +62,7 @@ if ( 2 > $paged ) {
 				<a href="https://www.facebook.com/pages/Stuehlmeyer-Building-Renovation-Company/153925961313160">Like us on Facebook</a>
 			</div>
 			<div class="col-md-4 fp-columns">
-				<a href="mailto:info@sr-stl.com">info@stubar.co</a>
+				<a href="mailto:info@sr-stl.com">info@sr-stl.com</a>
 			</div>
 		</div>
 	</div>
